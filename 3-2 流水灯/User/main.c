@@ -16,7 +16,7 @@ int main(){
 		for(i=0;i<8;i++)
 		{
 			GPIO_Write(GPIOA,~(0x0001<<i));
-			Delay_ms(100);
+			Delay_ms(80);
 		}
 		
 	}
